@@ -1,0 +1,41 @@
+
+Class: P1 Package: java.lang Methode: main line: 11 AT: Sun Jan 03 15:37:58 CET 2021 message: / by zero
+Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 15:38:34 CET 2021 message: Connexion refusée
+Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 15:40:24 CET 2021 message: Connexion refusée
+Class: java.io.ObjectInputStream$BlockDataInputStream Package: java.lang Methode: peekByte line: 3211 AT: Sun Jan 03 16:01:43 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:10:16 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:10:16 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:12:11 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:12:11 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:14:58 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:14:58 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:18:53 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:18:53 CET 2021 message: null
+Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 16:22:05 CET 2021 message: Connexion refusée
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:22:24 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:22:24 CET 2021 message: null
+Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 16:25:30 CET 2021 message: Connexion refusée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:25:37 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 16:25:42 CET 2021 message: Connexion refusée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:27:24 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:27:33 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:28:04 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:28:25 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:28:32 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:30:12 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 16:30:14 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:31:21 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:31:22 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:33:25 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:33:25 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:35:19 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:35:19 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:36:07 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:36:07 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:36:36 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:36:36 CET 2021 message: null
+Class: sun.nio.ch.NioSocketImpl Package: java.lang Methode: implWrite line: 420 AT: Sun Jan 03 16:58:56 CET 2021 message: Relais brisé (pipe)
+Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: readFully line: 2912 AT: Sun Jan 03 16:58:56 CET 2021 message: null
+Class: P4 Package: java.lang Methode: main line: 21 AT: Sun Jan 03 17:01:08 CET 2021 message: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 17:20:48 CET 2021 message: Adresse déjà utilisée
+Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 17:24:00 CET 2021 message: Connexion refusée
