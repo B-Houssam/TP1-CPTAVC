@@ -9,9 +9,14 @@ public class P3 {
 		// TODO Auto-generated method stub
 		int port3_2 = 2003;
 		int port3_4 = 2004;
+		int port3_1 = 2031;
 		
 		try {
 			//int k = 10/0;
+			
+			/*
+			 * réception depuis P2
+			 */
 			ServerSocket s = new ServerSocket(port3_2);
 			System.out.println("P3 is listening on port: " + port3_2 + "...");
 			
@@ -22,6 +27,7 @@ public class P3 {
 			String M = (String) in.readObject(); // Par P2. 
 			String N = (String) in.readObject(); // Par P2. 
 			System.out.println("P2 a envoye: " + M + " et " + N);
+			
 			
 			//-------------------------------------------------//
 			
@@ -45,6 +51,10 @@ public class P3 {
 			
 			//-------------------------------------------------//
 			
+			/*
+			 * Envoie vers P4
+			 */
+			
 			Socket c = new Socket("localhost",port3_4);
 			System.out.println("Connection Accepted on port " + port3_4 + "...");
 			
@@ -54,6 +64,17 @@ public class P3 {
 			out.writeObject(ss);	
 			out.writeObject(pr);	
 			
+			/*
+			 * Envoie vers P1
+			 */
+			
+			Socket cc = new Socket("localhost",port3_1);
+			System.out.println("Connection Accepted on port " + port3_1 + "...");
+			
+			ObjectOutputStream outt = new ObjectOutputStream(cc.getOutputStream());
+				
+			outt.writeObject("P3 dit a P1 ...");	
+			
 			//------------------------------------------------//
 			
 			connection.close();	
@@ -61,6 +82,8 @@ public class P3 {
 			in.close();
 			out.close();
 			c.close();
+			cc.close();
+			outt.close();
 			
 		} catch (Exception e) {
 			// TODO: handle exception

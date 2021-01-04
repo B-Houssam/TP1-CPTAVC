@@ -39,3 +39,5 @@ Class: java.io.ObjectInputStream$PeekInputStream Package: java.lang Methode: rea
 Class: P4 Package: java.lang Methode: main line: 21 AT: Sun Jan 03 17:01:08 CET 2021 message: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
 Class: sun.nio.ch.Net Package: java.lang Methode: bind0 line: -2 AT: Sun Jan 03 17:20:48 CET 2021 message: Adresse déjà utilisée
 Class: sun.nio.ch.Net Package: java.lang Methode: connect0 line: -2 AT: Sun Jan 03 17:24:00 CET 2021 message: Connexion refusée
+Class: java.io.ObjectInputStream$BlockDataInputStream Package: java.lang Methode: peekByte line: 3211 AT: Mon Jan 04 18:57:32 CET 2021 message: null
+Class: P1 Package: java.lang Methode: main line: 16 AT: Mon Jan 04 19:09:04 CET 2021 message: / by zero
